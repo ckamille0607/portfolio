@@ -12,7 +12,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 3px;
+    width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -21,7 +21,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background: #7d5a5a;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 a {
@@ -231,7 +231,7 @@ h3 {
 h4 {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -247,7 +247,7 @@ h4 a {
 .description {
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 0.985rem;
     color: #fff;
     text-align: center;
     width: 350px;
@@ -411,15 +411,16 @@ h6 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
 }
 
 .infop {
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 0.9rem;
-    line-height: 1.2;
-    text-align: center;
+    font-size: 0.985rem;
+    line-height: 1.5;
+    text-align: left;
     padding: 0 50px 25px 50px;
     margin-top: -5px;
     margin-bottom: 12px;
@@ -454,8 +455,8 @@ h6 {
 .infoa {
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 0.9rem;
-    line-height: 1.4;
+    font-size: 0.985rem;
+    line-height: 1.5;
     text-align: justify;
     padding: 0 50px 10px 50px;
     margin-top: -5px;
@@ -644,11 +645,12 @@ h6 {
     }
 
     h1 {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
 
     .exclamation {
-        width: 10px;
+        width: 15px;
+        padding-left: 3px;
     }
 
     .one,
@@ -658,15 +660,23 @@ h6 {
     }
 
     h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     h3 {
         font-size: 2.2rem;
     }
 
+    h4 {
+        font-size: 1rem;
+    }
+
+    .samples {
+        width: 350px;
+    }
+
     .description {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .wave svg {
@@ -682,11 +692,11 @@ h6 {
     }
 
     .extra {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .socials {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .credit {
@@ -695,18 +705,30 @@ h6 {
 
     .infop,
     .infoa {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         padding: 10px 10px 5px 10px;
         width: 75%;
     }
 
     h5 {
-        font-size: 1.3rem;
+        font-size: 1.8rem;
+    }
+
+    h6 {
+        font-size: 1rem;
     }
 
     .tab,
     .tab2,
     .tab3 {
         width: 180px;
+    }
+
+    .wireframes {
+        width: 400px;
+    }
+
+    .p1design {
+        width: 300px;
     }
 }

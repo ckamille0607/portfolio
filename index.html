@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelsea Kamille Williams | Front-end Developer and UI Designer</title>
+    <link rel="shortcut icon" href="./images/ckw.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="/">
+            <img class="logo" src="./images/logo.png" draggable="false" alt="CKW logo">
+        </a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#works">Works</a></li>
+            <li class="nav-item"><a
+                    href="https://drive.google.com/file/d/1FUuIQhweiW4xfJ3yqLkEuYsgLYS-AKf7/view?usp=sharing"
+                    target="_blank">Resume</a>
+            </li>
+        </ul>
+    </header>
+    <section class="intro">
+        <div class="greeting" data-aos="fade-down" data-aos-duration="1000">
+            <h1>Hello there<img src="./images/exclamation.svg" class="exclamation" draggable="false" alt="!"><br>
+                You can call me Chelsea <br>
+                or Kam for short.
+                <br>I'm a front-end developer <br>
+                and designer based
+                in california.
+            </h1>
+            <img src="./images/one.svg" class="one" draggable="false" alt="photo of girl with computer">
+        </div>
+    </section>
+    <section class="second" id="about">
+        <div class="tab"> </div>
+        <div class="about">
+            <h2 data-aos="fade-down" data-aos-duration="1300">i’m a front-end developer and designer <br>who’s deeply
+                interested in creating <br>beautiful designs, writing clean codes, <br>and continuously learning about
+                <br>web development.
+            </h2>
+            <p class="extra" data-aos="fade-down" data-aos-duration="1300"><a class="links" href="/about">Want
+                    to
+                    learn
+                    more about
+                    me?</a></p>
+        </div>
+    </section>
+    <section class="third" id="works">
+        <h3>a showcase <br>of my<br>personal projects</h3>
+        <div class="photo" id="project1" data-aos="fade-up" data-aos-duration="1300">
+            <img src="./images/project1.png" class="samples" draggable="false" alt="screenshot of project 1">
+        </div>
+        <div class="desc">
+            <h4><a href="/portfolio">My Portfolio</a></h4>
+            <p class="description">My very first portfolio and the first web app that I've designed and coded all by
+                myself.
+            </p>
+        </div>
+        <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <section class="fourth">
+        <div class="pbg">
+            <div class="photo" id="project2" data-aos="fade-up" data-aos-duration="1300">
+                <img src="./images/project2.png" class="samples" draggable="false" alt="screenshot of project 2">
+            </div>
+            <div class="desc">
+                <h4><a href="/project2">React Card Component</a></h4>
+                <p class="description">A project I built during my bootcamp program.</p>
+            </div>
+        </div>
+    </section>
+    <section class="fifth">
+        <div class="pbg">
+            <div class="photo" id="project3" data-aos="fade-up" data-aos-duration="1300">
+                <img src="./images/project3.png" class="samples" draggable="false" alt="screenshot of project 3">
+            </div>
+            <div class="desc">
+                <h4><a href="/project3">Website Redesign</a></h4>
+                <p class="description">An unsolicited (and very brief) redesign of one of my favorite skincare
+                    brands.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3 style="color:#fff;" data-aos="fade-down" data-aos-duration="1300">wanna get in touch?</h3>
+        <img src="./images/footer.svg" alt="waving heart" class="footer-img" draggable="false" data-aos="fade-right"
+            data-aos-duration="1300">
+        <div class="contact">
+            <p class="socials" data-aos="fade-up" data-aos-duration="1300">
+                <a href="mailto:hello@chelseakamille.com">say hello!</a> | <a
+                    href="https://www.linkedin.com/in/chelseakamille/">linkedin</a> | <a
+                    href="https://github.com/ckamille0607">github</a>
+            </p>
+        </div>
+        <p class="credit">
+            Handcrafted by me 💕 © 2022
+        </p>
+    </footer>
+    <script src="server.js" charset="utf-8"></script>
+    <script>
+        const menu = document.querySelector(".menu");
+        const navMenu = document.querySelector(".navMenu");
+
+        menu.addEventListener("click", () => {
+            menu.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        })
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+    </script>
+</body>
+
+</html>

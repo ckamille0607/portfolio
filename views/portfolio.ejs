@@ -1,0 +1,65 @@
+<%- include("partials/header"); -%>
+    <ul class="nav-menu">
+        <li class="nav-item"><a href="/#project1">Go back</a></li>
+    </ul>
+    </header>
+    <section class="container">
+        <div class="photo">
+            <img src="./images/project1.png" class="samples" draggable="false" alt="screenshot of project 1"
+                data-aos="fade-right" data-aos-duration="1200">
+        </div>
+        <div class="tab2"> </div>
+        <div class="container-info">
+            <h5>My very first portfolio and web app.</h5>
+        </div>
+        <div class="extrad">
+            <p class="role"><span
+                    style="font-weight:700;text-transform:uppercase;text-decoration:underline;letter-spacing:1px;">
+                    Role(s)</span><br><br>UI Designer<br>Front-end Developer</p>
+            <p class="role"><span
+                    style="font-weight:700;text-transform:uppercase;text-decoration:underline;letter-spacing:1px;">
+                    Tools</span><br><br>Adobe XD<br>Adobe Photoshop</p>
+            <a href="/">
+                <button type="button" class="site" href="/">view live site</button>
+            </a>
+        </div>
+        <div class="container-info">
+            <p class="infop">At first, I wasn’t exactly sure what I wanted since I found it difficult to find the right
+                tone to convey myself through a website.
+                All I knew was that I wanted to create a simple yet elegant
+                layout with large attention-grabbing texts, beautiful colors that goes well together, and have all the
+                important information in one page to make it easy for the viewer to know everything they need to know
+                about me.
+            </p>
+            <h6>Low Fidelity Wireframes</h6>
+            <p class="infop">I used Adobe XD to play around with several ideas in mind to come up with a layout for my
+                portfolio before finally coming up with these wireframes:</p>
+            <img src="./images/lf.png" class="wireframes" alt="lo-fi design" draggable="false">
+            <h6>Font Family and Color Palette</h6>
+            <p class="infop">Yet another challenge was finding the right color palette. After hours of experimenting, I
+                finally settled with a palette that allows me to use shades of pink without it being too bright or too
+                loud.</p>
+            <img src="./images/p1design.png" class="p1design" alt="design details" draggable="false">
+            <h6>High Fidelity Wireframes for Desktop</h6>
+            <p class="infop">Once I knew the color scheme I wanted, things started to come together much easier and
+                faster.</p>
+            <img src="./images/hf.png" class="wireframes" alt="hi-fi design" draggable="false">
+            <h6>Development</h6>
+            <p class="infop">When I finished creating and designing the wireframes on Adobe XD, I was thrilled to start
+                coding and bring the design to life. For majority of the layout, I chose to use flexbox because it
+                suited my design better. Using flex direction made it easier for me to align the contents in the center
+                and helped with making the entire page responsive.
+            </p>
+            <p class="infop">For the images and large headings, I decided to use vw instead of a fixed width for a more
+                seamless experience when resizing the pages. Using this method saved me a lot of time as I didn't have
+                to target all of these elements again when I was doing the media queries for smaller screens. I only had
+                to adjust certain images and headings that I wanted bigger on mobile screens.
+            </p>
+            <p class="infop">For a closer look at the code I built, please check out my <a
+                    href="https://github.com/ckamille0607/portfolio" target="_blank"><b>GitHub</b></a> page dedicated
+                to my portfolio.
+            </p>
+        </div>
+    </section>
+
+    <%- include("partials/footer"); -%>

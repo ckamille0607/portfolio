@@ -1,0 +1,59 @@
+<%- include("partials/header"); -%>
+    <ul class="nav-menu">
+        <li class="nav-item"><a href="/#project2">Go back</a></li>
+    </ul>
+    </header>
+    <section class="container">
+        <div class="photo">
+            <img src="./images/project2.png" class="samples" draggable="false" alt="screenshot of project 2"
+                data-aos="fade-right" data-aos-duration="1200">
+        </div>
+        <div class="tab2"> </div>
+        <div class="container-info">
+            <h5>React Card Component.</h5>
+        </div>
+        <div class="extrad">
+            <p class="role"><span
+                    style="font-weight:700;text-transform:uppercase;text-decoration:underline;letter-spacing:1px;">
+                    Role(s)</span><br><br>Front-end Developer<br>UI Designer</p>
+            <p class="role"><span
+                    style="font-weight:700;text-transform:uppercase;text-decoration:underline;letter-spacing:1px;">
+                    Tools</span><br><br>React<br>Emojipedia</p>
+            <a href="https://illustrious-brioche-4a1d3c.netlify.app/" target="_blank">
+                <button type="button" class="site">view live site</button>
+            </a>
+        </div>
+        <div class="container-info">
+            <p class="infop">This is one of the projects during my bootcamp program that I enjoyed learning about. It
+                was my first time to formally study React and I was amazed by it. While it was a bit of a challenge
+                understanding its structure at first, it became easier the more I practiced and played around with the
+                code.
+            </p>
+            <h6>Low Fidelity Wireframe</h6>
+            <p class="infop">Here I started out with a very basic layout filled with a large heading for the title and
+                several boxes for the cards that would show several of the new emojis.</p>
+            <img src="./images/lf_emoji.png" class="wireframes" alt="lo-fi design" draggable="false">
+            <h6>Font Family and Color Palette</h6>
+            <p class="infop">I wanted to keep the colors simple and so, I only choose one bright color for the
+                background and kept the rest neutral.</p>
+            <img src="./images/p2design.png" class="p1design" alt="design details" draggable="false">
+            <h6>High Fidelity Wireframe Desktop and Mobile</h6>
+            <p class="infop">I followed the low fidelity wireframe closely and added a cool background that wouldn't
+                clash with the card components. To make the cards stand out, I decided to use a box shadow
+                with the color black to make the entries really pop out of the page.</p>
+            <img src="./images/hf_emoji.png" class="wireframes" alt="hi-fi design" draggable="false">
+            <img src="./images/hf_emoji_mobile.png" class="wireframes" alt="hi-fi mobile design" draggable="false"
+                style="margin-top:40px;width:25vw;">
+            <h6>Development</h6>
+            <p class="infop">I had a lot of fun recreating this project and designing the layout to my liking. The use
+                of React’s props made it a breeze to duplicate the entries multiple times without any extra code. Using
+                flexbox wrap also made it easy for the page to become responsive without having to adjust all of the
+                codes in the media query section.</p>
+            <p class="infop">For a closer look at the code, please check out my <a
+                    href="https://github.com/ckamille0607/emojipedia" target="_blank"><b>GitHub</b></a> page dedicated
+                to this
+                project.
+            </p>
+        </div>
+    </section>
+    <%- include("partials/footer"); -%>

@@ -400,7 +400,7 @@ footer {
 }
 
 h5 {
-    width: 68%;
+    /* width: 68%; */
     font-weight: 500;
     font-style: italic;
     font-size: 3vw;
@@ -412,7 +412,7 @@ h6 {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.1rem;
-    letter-spacing: 1px;
+    letter-spacing: 1.1px;
 }
 
 .infop {
@@ -488,7 +488,7 @@ h6 {
     font-weight: 300;
     font-size: 0.985rem;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
     padding: 0 50px;
     width: 52%;
 }
@@ -499,10 +499,10 @@ h6 {
     border: 1px solid #000;
     border-radius: 120px;
     width: 60vw;
-    margin: 160px auto;
-    box-shadow: 8px 8px 1px #000;
-    -webkit-box-shadow: 8px 8px 1px #000;
-    -moz-box-shadow: 8px 8px 1px #000;
+    margin: 120px auto -20px auto;
+    box-shadow: 8px 10px 1px #000;
+    -webkit-box-shadow: 8px 10px 1px #000;
+    -moz-box-shadow: 8px 10px 1px #000;
 }
 
 .case-info1 {
@@ -521,13 +521,8 @@ h6 {
     padding-bottom: 50px;
 }
 
-.tab3 {
-    width: 300px;
-    height: 60px;
-    border-radius: 40px;
-    background-color: #faf2f2;
-    margin: 120px auto -28px auto;
-    text-align: center;
+.cases-d {
+    padding: 40px 0 0 0;
 }
 
 .container-d {
@@ -535,20 +530,36 @@ h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 28px;
     background-color: #faf2f2;
 }
 
 .case-photo {
-    width: 55vw;
+    width: 62vw;
     user-select: none;
+    padding-bottom: 50px;
 }
 
-/* .divider {
-    margin: auto;
-    width: 60%;
-    border-bottom: 1px dashed #000;
-} */
+.case-photo2 {
+    width: 40vw;
+    user-select: none;
+    padding-bottom: 50px;
+}
+
+.c-title {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    padding: 50px 0;
+}
+
+.divider {
+    width: 65%;
+    padding-top: 20px;
+    border-bottom: 1px solid #000;
+}
 
 
 /* ANIMATION */
@@ -676,8 +687,8 @@ h6 {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1200px) {
-    nav ul li {
-        font-size: 0.8rem;
+    .nav-item {
+        font-size: 0.9rem;
     }
 
     .logo {
@@ -701,6 +712,15 @@ h6 {
     h5 {
         font-size: 2rem;
     }
+
+    .wireframes,
+    .case-photo {
+        width: 69vw;
+    }
+
+    .case-photo2 {
+        width: 36vw;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -712,8 +732,8 @@ h6 {
 }
 
 @media only screen and (max-width: 550px) {
-    nav ul li {
-        font-size: 0.7rem;
+    .nav-item {
+        font-size: 0.8rem;
     }
 
     .logo {
@@ -787,7 +807,7 @@ h6 {
     .infop,
     .infoa,
     .briefinfo {
-        font-size: 0.9rem;
+        font-size: 0.925rem;
         padding: 10px 10px 5px 10px;
         width: 75%;
     }
@@ -813,7 +833,11 @@ h6 {
 
     .wireframes,
     .case-photo {
-        width: 400px;
+        width: 82vw;
+    }
+
+    .case-photo2 {
+        width: 60vw;
     }
 
     .p1design {
@@ -829,7 +853,11 @@ h6 {
         width: 90%;
     }
 
-    .cases {
-        width: 42vw;
+    .cases-ps {
+        width: 45vw;
+    }
+
+    .divider {
+        width: 100%;
     }
 }

@@ -561,6 +561,16 @@ h6 {
     border-bottom: 1px solid #000;
 }
 
+.ouch-credit {
+    font-family: 'Lato';
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -40px;
+    padding-bottom: 45px;
+}
+
 
 /* ANIMATION */
 
@@ -726,6 +736,11 @@ h6 {
     .case-info2 {
         flex-direction: column;
     }
+
+    .ouch-credit {
+        font-size: 0.7rem;
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -864,5 +879,10 @@ h6 {
 
     .divider {
         width: 100%;
+    }
+
+    .ouch-credit {
+        font-size: 0.5rem;
+        width: 70%;
     }
 }

@@ -567,10 +567,13 @@ h6 {
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
-    margin-top: -40px;
-    padding-bottom: 45px;
+    padding-bottom: 5px;
 }
 
+.prototype {
+    width: 400px;
+    height: 700px;
+}
 
 /* ANIMATION */
 
@@ -878,11 +881,16 @@ h6 {
     }
 
     .divider {
-        width: 100%;
+        width: 80%;
     }
 
     .ouch-credit {
         font-size: 0.5rem;
         width: 70%;
+    }
+
+    .prototype {
+        width: 250px;
+        height: 500px;
     }
 }

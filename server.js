@@ -25,6 +25,9 @@ app.get("/project3", function (req, res) {
 app.get("/sunnies", function (req, res) {
     res.render("sunnies");
 });
+app.get("/lexi", function (req, res) {
+    res.render("lexi");
+});
 
 app.listen(3000, function () {
     console.log("Server started on port 3000");
